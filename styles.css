@@ -1,0 +1,106 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.nav {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+}
+
+.nav a {
+    color:#f9faf8;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.information {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.information h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.information img {
+    max-width: 512px;
+    max-height: 512px;
+}
+
+.left {
+    display: block;
+}
+
+.left p {
+    padding: 0;
+    margin: 0;
+}
+
+.right {
+    display:block;
+    margin: auto;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 100px;
+}
+
+.footer {
+    background-color: #1f2937;
+}
+
+.headerText {
+    color:#1f2937;
+    font-size: 36px;
+    font-weight:bolder;
+    margin: auto;
+    padding: 50px;
+}
+
+.big {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 49px;
+}
+.tile {
+    border: 4px solid #3882f8;
+    border-radius: 12px;
+}
+.text {
+    width: 168px;
+    color: #4b5563;
+    font-size: 18px;
+    text-align: center;
+}
+
+* {
+    border: 2px solid red;
+}
