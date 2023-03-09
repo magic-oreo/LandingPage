@@ -33,18 +33,22 @@ body {
 .container {
     max-width: 1024px;
     margin: 0 auto;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .information {
     display: flex;
     overflow: hidden;
     padding: 100px 0 100px 0;
+    gap: 20px;
 }
 
 .information h1 {
     font-size: 48px;
     font-weight: bold;
     margin: 0;
+    color:#f9faf8;
 }
 
 .information img {
@@ -53,10 +57,14 @@ body {
 
 .left {
     flex: 1;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .left p {
     margin: 0 20% 0 0;
+    padding-bottom: 10px;
+    color:#e5e7eb;
 }
 
 .right {
